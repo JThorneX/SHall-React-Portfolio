@@ -40,7 +40,7 @@ function About() {
             mollitia eligendi?
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary contact_btn">
             Contact Me
           </a>
         </div>

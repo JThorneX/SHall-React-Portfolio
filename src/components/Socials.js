@@ -1,19 +1,19 @@
 import React from "react";
-import { BsLinkedin } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
+import { FiLinkedin } from "react-icons/fi";
+import { FiTwitter } from "react-icons/fi";
+import { FiFacebook } from "react-icons/fi";
 
 function Socials() {
   return (
     <div className="socials">
       <a href="https://www.linkedin.com" target="_blank">
-        <BsLinkedin />
+        <FiLinkedin />
       </a>
       <a href="https://www.twitter.com" target="_blank">
-        <BsTwitter />
+        <FiTwitter />
       </a>
       <a href="https://www.facebook.com" target="_blank">
-        <BsFacebook />
+        <FiFacebook />
       </a>
     </div>
   );

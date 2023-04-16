@@ -6,10 +6,10 @@
 }
 
 :root {
-  --bg: rgb(112, 0, 69);
+  --bg: rgb(7, 11, 54);
   --pink: rgb(254, 159, 175);
   --cyan: rgb(0, 255, 255);
-  --navy: rgb(0, 16, 136);
+  --navy: rgb(255, 0, 212);
   --purple: rgb(142, 35, 142);
 
   --transition: all 400ms ease;
@@ -96,7 +96,7 @@ a:hover {
 
 .btn-primary {
   background: var(--navy);
-  color: var(--pink);
+  color: var(--bg);
 }
 
 .text-light {

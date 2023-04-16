@@ -52,10 +52,6 @@ const Contact = () => {
           </button>
         </form>
       </div>
-
-      {/* <a href="#Contact" className="btn btn-primary">
-        Let's Talk
-      </a> */}
     </section>
   );
 };
