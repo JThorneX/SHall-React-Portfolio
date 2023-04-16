@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SHall-React-Portfolio/static/css/main.1a62f821.css",
+    "main.css": "/SHall-React-Portfolio/static/css/main.efe99a46.css",
     "main.js": "/SHall-React-Portfolio/static/js/main.805df435.js",
     "static/media/sophie on fleek.png": "/SHall-React-Portfolio/static/media/sophie on fleek.18b7a623bcab7dc4aa71.png",
     "static/media/Untitled1.pdf": "/SHall-React-Portfolio/static/media/Untitled1.8d62d01be9b14d579411.pdf",
     "index.html": "/SHall-React-Portfolio/index.html",
-    "main.1a62f821.css.map": "/SHall-React-Portfolio/static/css/main.1a62f821.css.map",
+    "main.efe99a46.css.map": "/SHall-React-Portfolio/static/css/main.efe99a46.css.map",
     "main.805df435.js.map": "/SHall-React-Portfolio/static/js/main.805df435.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a62f821.css",
+    "static/css/main.efe99a46.css",
     "static/js/main.805df435.js"
   ]
 }
