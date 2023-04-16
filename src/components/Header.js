@@ -1,5 +1,7 @@
 import React from "react";
 import CV from "./CVdownload";
+import sophie from "../assets/sophie on fleek.png";
+import Socials from "./Socials";
 
 function Header() {
   return (
@@ -9,6 +11,11 @@ function Header() {
         <h1> Sophie Hall</h1>
         <h5 className="text-light">Medical Coder</h5>
         <CV />
+        <Socials />
+
+        <div className="sophie">
+          <img src={sophie} alt="sophie on fleek" />
+        </div>
       </div>
     </header>
   );
