@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
-import Resume from "./components/Resume";
+import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
