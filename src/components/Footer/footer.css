@@ -17,7 +17,7 @@ footer a {
   display: inline-block;
 }
 
-.permalinks {
+.permalinks li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -50,4 +50,16 @@ footer a {
 
 .footer_copyright {
   color: var(--navy);
+}
+
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    padding: 0;
+    gap: 1.5rem;
+  }
+
+  .footer_socials {
+    margin-bottom: 2.6rem;
+  }
 }

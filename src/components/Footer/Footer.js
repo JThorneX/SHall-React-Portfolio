@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer>
       <a href="#" className="footer_logo">
-        JTHORNE
+        SOPHIE HALL
       </a>
 
       <ul className="permalinks">
