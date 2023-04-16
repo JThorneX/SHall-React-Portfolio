@@ -16,7 +16,7 @@ function Resume() {
             <article className="experience_details">
               <RiLightbulbFlashFill className="experience_details-icon" />
               <div>
-                <h4>SQL Developer</h4>
+                <h4 className="highlight">SQL Developer</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
