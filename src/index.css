@@ -6,7 +6,7 @@
 }
 
 :root {
-  --bg: rgb(12, 4, 9);
+  --bg: rgb(112, 0, 69);
   --pink: rgb(254, 159, 175);
   --cyan: rgb(0, 255, 255);
   --navy: rgb(0, 16, 136);
@@ -56,6 +56,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,

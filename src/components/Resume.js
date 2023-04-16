@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Resume() {
-  return (
-    <div>Resume</div>
-  )
+  return <section id="resume">Resume</section>;
 }
 
-export default Resume
+export default Resume;
