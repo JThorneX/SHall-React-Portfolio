@@ -1,18 +1,16 @@
 import React from "react";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import About from "./components/About/About";
 import Resume from "./components/Resume";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Socials from "./components/Socials";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
       <Header />
       <Navbar />
-      <Socials />
       <About />
       <Resume />
       <Contact />

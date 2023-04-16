@@ -1,7 +1,7 @@
 import React from "react";
-import CV from "./CVdownload";
-import sophie from "../assets/sophie on fleek.png";
-import Socials from "./Socials";
+import CV from "../CVdownload";
+import sophie from "../../assets/sophie on fleek.png";
+import Socials from "../Socials";
 
 function Header() {
   return (
