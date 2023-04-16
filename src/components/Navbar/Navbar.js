@@ -25,18 +25,18 @@ const Navbar = () => {
         <FaUserNinja />
       </a>
       <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
-        <FaCommentAlt />
-      </a>
-      <a
         href="#resume"
         onClick={() => setActiveNav("#resume")}
         className={activeNav === "#resume" ? "active" : ""}
       >
         <FaFileDownload />
+      </a>
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
+        <FaCommentAlt />
       </a>
     </nav>
   );
