@@ -7,8 +7,8 @@
 .about_me {
   width: 100%;
   aspect-ratio: 1/1;
-  border-radius: 2rem;
-  background: linear-gradient(45deg, transparent, var(--pink), transparent);
+  /* border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--pink), transparent); */
   display: grid;
   place-items: center;
 }
