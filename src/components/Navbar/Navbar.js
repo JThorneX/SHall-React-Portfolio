@@ -2,26 +2,44 @@ import React from "react";
 import "./navbar.css";
 import { FaHome } from "react-icons/fa";
 import { FaUserNinja } from "react-icons/fa";
-import { GrContact } from "react-icons/gr";
-import { GrDocumentDownload } from "react-icons/gr";
+import { FaCommentAlt } from "react-icons/fa";
+import { FaFileDownload } from "react-icons/fa";
+import { useState } from "react";
 
-function Navbar() {
+const Navbar = () => {
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="#">
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <FaHome />
       </a>
-      <a href="#about">
+      <a
+        href="#about"
+        onClick={() => setActiveNav("#about")}
+        className={activeNav === "#about" ? "active" : ""}
+      >
         <FaUserNinja />
       </a>
-      <a href="#contact">
-        <GrContact />
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
+        <FaCommentAlt />
       </a>
-      <a href="#resume">
-        <GrDocumentDownload />
+      <a
+        href="#resume"
+        onClick={() => setActiveNav("#resume")}
+        className={activeNav === "#resume" ? "active" : ""}
+      >
+        <FaFileDownload />
       </a>
     </nav>
   );
-}
+};
 
 export default Navbar;
