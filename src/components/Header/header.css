@@ -63,8 +63,7 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 60vh;
-    width: 100vw;
-    width: 25rem;
+    width: 100%;
   }
 
   .header_container {

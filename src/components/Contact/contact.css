@@ -8,6 +8,7 @@
 .contact_options {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 1.2rem;
 }
 
@@ -18,11 +19,13 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  line-height: 1.3rem;
 }
 
 .contact_option:hover {
   background: transparent;
   border-color: var(--pink);
+  line-height: 1.1rem;
 }
 
 .contact_option-icon {
