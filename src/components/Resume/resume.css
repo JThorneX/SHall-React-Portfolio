@@ -10,12 +10,14 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  line-height: 1rem;
 }
 
 .experience_container > div:hover {
   background: transparent;
   border-color: var(--cyan);
   cursor: default;
+  line-height: .9rem;
 }
 
 .experience_container > div h3 {
