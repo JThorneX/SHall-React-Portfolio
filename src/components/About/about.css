@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
+  line-height: 1.2rem;
 }
 
 .about_me {
@@ -47,6 +48,7 @@
 .about_card:hover {
   background: transparent;
   border-color: var(--pink);
+  line-height: 1.1rem;
 }
 
 .about_icon {
