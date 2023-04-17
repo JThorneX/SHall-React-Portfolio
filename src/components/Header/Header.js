@@ -7,14 +7,17 @@ function Header() {
   return (
     <header>
       <div className="container header_container">
-        <h5> Hello, I am</h5>
-        <h1> Sophie Hall</h1>
-        <h5 className="text-light">Medical Coder</h5>
-        <Socials />
-
         <div className="sophie">
           <img src={sophie} alt="sophie on fleek" />
         </div>
+        <div className="header_content">
+          <div className="header_text">
+            <h1> Sophie Hall</h1>
+            <h5 className="text-light">HIM Professional</h5>
+            <Socials />
+          </div>
+        </div>
+
       </div>
     </header>
   );

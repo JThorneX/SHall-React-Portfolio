@@ -11,7 +11,7 @@ function About() {
 
       <div className="container about_container">
         <div className="about_me">
-          <div className="about_me-image">
+          <div  className="about_me-image">
             <img src={me} alt="about me image" className="about_image" />
           </div>
         </div>
